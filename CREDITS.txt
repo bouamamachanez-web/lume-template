@@ -1,0 +1,62 @@
+LUMÉ — CREDITS
+==============
+
+FONTS
+-----
+
+DM Sans
+Source: Google Fonts
+https://fonts.google.com/specimen/DM+Sans
+
+Playfair Display
+Source: Google Fonts
+https://fonts.google.com/specimen/Playfair+Display
+
+
+IMAGES
+======
+
+hero.jpg
+Source: Pexels
+Photographer: cottonbro studio
+Source page:
+https://www.pexels.com/fr-fr/photo/une-femme-en-manteau-beige-se-couvrant-le-visage-avec-sa-main-9142810/
+
+License: Pexels License
+https://www.pexels.com/license/
+
+
+product1.jpg
+Source: Pexels
+Photographer: Peter Ohis 
+Source page: https://www.pexels.com/fr-fr/photo/femme-etre-assis-robe-tournage-en-studio-13724692/ 
+
+License: Pexels License
+https://www.pexels.com/license/
+
+
+product2.jpg
+Source:  Pexels
+Photographer:  Ron Lach 
+Source page: https://www.pexels.com/fr-fr/photo/main-porter-cuir-sac-a-main-8396731/
+
+License: Pexels License
+https://www.pexels.com/license/
+
+
+product3.jpg
+Source:  Pexels
+Photographer: Beyzaa Yurtkuran
+Source page: https://www.pexels.com/fr-fr/photo/mode-vetements-accessoire-collier-17057184/
+
+License: Pexels License
+https://www.pexels.com/license/
+
+
+about.jpg
+Source:  Pexels
+Photographer: Arina Krasnikova 
+Source page: https://www.pexels.com/fr-fr/photo/femme-en-robe-blanche-debout-pres-de-porte-vetements-5418888/
+
+License: Pexels License
+https://www.pexels.com/license/
