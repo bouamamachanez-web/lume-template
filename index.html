@@ -20,9 +20,9 @@
  <header>
   <nav class="navbar">
     
-    <a href="#">LUME</a>
+    <a href="#" class="logo">LUME</a>
     
-    <ul class="nav-links">
+    <ul class="nav-links" id="navLinks">
       <li><a href="#home">Home</a></li>
       <li><a href="#collection">Collection</a></li>
       <li><a href="#about">About</a></li>
@@ -30,6 +30,12 @@
     </ul>
 
     <a href="#collection" class="nav-button">Shop Now</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
     
   </nav>
  </header>
@@ -135,7 +141,7 @@
         </p>
 
         <a href="#" class="text-link">
-          Discorver our story &#8594;
+          Discover our story &#8594;
         </a>
 
       </div>
@@ -201,7 +207,7 @@
  <footer>
    <div class="footer-logo">
     LUME
-   </div>>
+   </div>
 
    <p>
     Modern elegance, made simple.
@@ -215,7 +221,27 @@
 
     <p class="copyright">
       &copy; 2026 LUME. All rights reserved.
+    </p>
  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      menuToggle.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        menuToggle.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
 
 </body>
 </html>
